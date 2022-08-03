@@ -1,5 +1,10 @@
-let rub = prompt("Введите сумму которую хотите расчитать.");
+let a = +prompt('введите значение');
 
-let dol = rub / 70;
+let b = typeof a === 'number';
 
-console.log(dol + " долларов.");
+
+if (a%2 === 0){
+console.log('число четное');
+} else{
+console.log('число нечетное');
+}
